@@ -1,0 +1,12 @@
+services:
+  modbus:
+    build: ./modbus-server
+    ports:
+      - 502:4502
+    volumes:
+      - /dev:/dev
+
+  s7:
+    build: ./s7-server
+    ports:
+      - 102:4102

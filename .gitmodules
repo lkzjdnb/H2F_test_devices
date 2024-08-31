@@ -1,0 +1,6 @@
+[submodule "modbus-server"]
+	path = modbus-server
+	url = https://github.com/lkzjdnb/modbus_test_server.git
+[submodule "s7-server"]
+	path = s7-server
+	url = https://github.com/lkzjdnb/snap7_test_server.git
