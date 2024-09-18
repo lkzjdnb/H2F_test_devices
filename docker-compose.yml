@@ -5,6 +5,7 @@ services:
       - 502:4502
     volumes:
       - /dev:/dev
+    restart: always
 
   s7:
     build: ./s7-server
